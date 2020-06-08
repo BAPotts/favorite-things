@@ -10,6 +10,9 @@ $(document).ready(function() {
     
     let newArray = [];
     newArray.push(favoriteArray[1],favoriteArray[0],favoriteArray[2]);
-    alert(newArray);
+    
+    $("#result1").text(newArray[0]);
+    $("#result2").text(newArray[1]);
+    $("#result3").text(newArray[2]);
   });
 });
