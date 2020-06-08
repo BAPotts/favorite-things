@@ -7,6 +7,9 @@ $(document).ready(function() {
     favoriteArray[2] = $("input#third-favorite").val();
     favoriteArray[3] = $("input#fourth-favorite").val();
     favoriteArray[4] = $("input#fifth-favorite").val();
-    alert(favoriteArray);
+    
+    let newArray = [];
+    newArray.push(favoriteArray[1],favoriteArray[0],favoriteArray[2]);
+    alert(newArray);
   });
 });
